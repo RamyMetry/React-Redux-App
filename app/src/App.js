@@ -11,7 +11,7 @@ function App(props) {
     <div>{props.image.map((item)=>(
       <div key={item.id}>
         
-        <img src={item.urls.small}/>
+        <img src={item.urls.small} />
         <h3>  {item.likes} likes</h3><br/>
       </div>
     ))}</div>
